@@ -1,0 +1,93 @@
+* {
+    padding:0;
+    margin:0;
+  }
+  /* Estilização do título */
+#titulo{  
+    background-color: #14213d;
+    align-self: center;
+    width: 30%;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration:solid;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+ .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex de todas as imagens no corpo */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+   
+}
+
+/* estilização da imagem de fundo */
+.vila {
+    background-image: url('img/vila_do_chaves.jpg');
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+   /*  border-radius: 20%; */
+    width: 560px;
+    height: 432px; 
+    padding: 2rem;
+}
+
+/* estilização da imagem do barril */
+
+.imagem_central {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 4rem;
+    flex-direction: column;
+ 
+} 
+ 
+#img_principal{
+
+    border-radius: 80%;
+    
+} 
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%; 
+}
+
+#bot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+/* estilização rodapé */
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
